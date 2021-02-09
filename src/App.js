@@ -8,10 +8,12 @@ import Home from "./components/Home";
 import Posts from "./components/Posts/Posts";
 import About from "./components/About/About";
 import Message from "./components/Message/Message";
+import Navbar from "./components/Navbar";
 
 function App() {
     return (
         <div className="App">
+            <Navbar />
             <Router>
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
