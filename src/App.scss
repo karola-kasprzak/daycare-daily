@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
-
+@import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap");
 * {
     box-sizing: border-box;
 }
@@ -19,4 +19,11 @@ body {
 
 .card .text-secondary {
     line-height: 25px;
+}
+
+.logo-sign {
+    font-size: x-large;
+    font-style: italic;
+    font-family: "Fontdiner Swanky", cursive;
+    color: #2b3b31 !important;
 }
