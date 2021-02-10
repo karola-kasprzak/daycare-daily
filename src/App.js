@@ -13,10 +13,12 @@ function App() {
     return (
         <div className="App">
             <Router>
+                {/* add shadow to bottom border */}
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container-fluid">
                         <a className="logo-sign navbar-brand" href="#">
-                            DaycareDaily
+                            <span className="color-dark">Daycare</span>
+                            <span className="color-contrast">Daily</span>
                         </a>
                         <button
                             className="navbar-toggler"
@@ -58,6 +60,9 @@ function App() {
                                 </li>
                             </ul>
                         </div>
+                        <button type="button" class="btn btn-outline-primary">
+                            Login
+                        </button>
                     </div>
                 </nav>
                 <Route exact path="/">
