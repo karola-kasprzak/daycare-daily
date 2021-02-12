@@ -1,0 +1,20 @@
+// page colors
+$white: #fbfbfb;
+$black: #202020;
+$primary: #fd9235;
+$primary_light: #ffcfad;
+$accent: #73bfe7;
+$secondary: #abc4b6;
+$secondary_dark: #33473b;
+
+.card-bg-primary {
+    background-color: $primary;
+}
+
+.card-bg-accent {
+    background-color: $accent;
+}
+
+.card-bg-secondary {
+    background-color: $secondary;
+}

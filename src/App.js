@@ -14,12 +14,14 @@ function App() {
         <div className="App">
             <Router>
                 {/* add shadow to bottom border */}
-                <nav className="navbar navbar-expand-lg navbar-light">
+                <nav className="navbar navbar-expand-lg navbar-light my-3">
                     <div className="container-fluid">
-                        <a className="logo-sign navbar-brand" href="#">
-                            <span className="color-dark">Daycare</span>
-                            <span className="color-contrast">Daily</span>
-                        </a>
+                        <Link to="/">
+                            <a className="logo-sign navbar-brand" href="#">
+                                <span className="color-dark">Daycare</span>
+                                <span className="color-contrast">Daily</span>
+                            </a>
+                        </Link>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -37,13 +39,8 @@ function App() {
                         >
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <Link to="/">
-                                        <a className="nav-link active">Home</a>
-                                    </Link>
-                                </li>
-                                <li className="nav-item">
                                     <Link to="/posts">
-                                        <a className="nav-link">Posts</a>
+                                        <a className="nav-link active">Posts</a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
@@ -60,7 +57,7 @@ function App() {
                                 </li>
                             </ul>
                         </div>
-                        <button type="button" class="btn btn-outline-primary">
+                        <button type="button" class="btn btn-custom__outline">
                             Login
                         </button>
                     </div>
@@ -78,6 +75,11 @@ function App() {
                     <Message />
                 </Route>
             </Router>
+            <footer className="h-25 p-3 footer">
+                <p className="text-muted small">
+                    2021 DaycareDaily by Karola Kasprzak
+                </p>
+            </footer>
         </div>
     );
 }

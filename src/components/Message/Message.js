@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 class Message extends Component {
     render() {
         return (
-            <div className="pt-5">
-                <Container className="d-flex justify-content-center align-items-center h-75">
+            <div className="py-5 bg-texture">
+                <Container className="d-flex justify-content-center align-items-center h-75 py-5">
                     <div className="card w-100 home-container align-self-center p-5 home-card-bg">
                         <h2 className="card-title py-3">Write to Us</h2>
 
@@ -93,7 +93,7 @@ class Message extends Component {
 
                             <div className="py-2">
                                 <button
-                                    className="btn btn-primary"
+                                    className="btn btn-custom"
                                     type="submit"
                                 >
                                     Submit form

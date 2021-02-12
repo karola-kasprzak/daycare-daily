@@ -1,16 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
 @import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap");
+
+// page colors
+$white: #fbfbfb;
+$black: #202020;
+$primary: #fd9235;
+$primary_light: #ffcfad;
+$accent: #73bfe7;
+$secondary: #abc4b6;
+$secondary_dark: #33473b;
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    margin: 20px 0;
+    margin: 0;
     padding: 0;
     line-height: 1;
     font-family: "Roboto", sans-serif;
     color: #202020;
-    background-color: #fbfbfb;
+    background-color: $white;
 }
 
 .card .badge {
@@ -28,9 +38,53 @@ body {
 }
 
 .color-dark {
-    color: #33473b !important;
+    color: $secondary_dark !important;
 }
 
 .color-contrast {
-    color: #abc4b6 !important;
+    color: $secondary !important;
+}
+
+.bg-texture {
+    // height: 100vh;
+    // width: 100vw;
+    background-image: url("../src/images/gray-light-texture-grunge.jpg");
+    // background-color: rgba(250, 250, 250, 0.25);
+    // background-blend-mode: screen;
+    background-repeat: repeat-y;
+    background-size: cover;
+    // position: absolute;
+}
+
+.footer {
+    height: 1.2rem;
+    background-color: $white;
+    margin-top: auto;
+}
+
+.btn-custom {
+    border-color: $primary;
+    background-color: $primary;
+}
+
+.btn-custom__outline {
+    border-color: $primary;
+    background-color: $white;
+    color: $primary;
+}
+
+.btn-custom__outline:hover {
+    background-color: $primary;
+    color: $white;
+}
+
+.btn-custom:hover {
+    background-color: $primary_light;
+}
+
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom__outline:active,
+.btn-custom__outline:focus {
+    box-shadow: 0 0 0 0.1rem rgba(255, 159, 103, 0.25);
 }

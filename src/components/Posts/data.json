@@ -1,30 +1,30 @@
 [
   {
     "id": 1,
-    "name": "Chicago Pizza",
-    "image": "/images/chicago-pizza.jpg",
-    "desc": "The pan in which it is baked gives the pizza its characteristically high edge which provides ample space for large amounts of cheese and a chunky tomato sauce.",
-    "price": 9
+    "image": "../../images/our_daycare.jpg",
+    "title": "Cookie Baking Day",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus diam sit amet est fermentum, id ornare nibh elementum. Nam vehicula quam nec felis euismod, non tristique ex euismod. Curabitur pretium semper lorem ut gravida. Integer enim nulla, hendrerit lobortis suscipit ut, pellentesque a mauris. Donec luctus suscipit nibh et pretium. Curabitur placerat felis id eros auctor mattis. Aliquam at arcu porta, aliquam mauris ac, lobortis tellus. Mauris ac consectetur magna.",
+    "date": "1 Feb, 2021"
   },
-  {
+   {
     "id": 2,
-    "name": "Neapolitan Pizza",
-    "image": "/images/neapolitan-pizza.jpg",
-    "desc": "This style of pizza is prepared with simple and fresh ingredients: a basic dough, raw tomatoes, fresh mozzarella cheese, fresh basil, and olive oil. A fantastic original pizza.",
-    "price": 7
+    "image": "../../images/our_daycare2.jpg",
+    "title": "Winter Birds",
+    "desc": "Praesent fringilla odio lectus, in laoreet velit dignissim id. Sed purus mauris, molestie vel consequat eu, blandit eget diam. Integer tempus tristique dui, id scelerisque urna rhoncus nec. Sed sem purus, congue at ante a, tempus maximus ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam bibendum sit amet erat et mollis. Vestibulum leo sapien, pulvinar id lorem nec, tristique lobortis eros. Praesent venenatis nulla in feugiat varius. Integer tempus odio aliquet urna ultrices, sed porttitor augue consectetur. Nunc mattis malesuada ex, vel vulputate lorem rutrum sed. Ut congue, nunc nec efficitur viverra, risus massa lobortis velit, ac luctus sapien purus et diam. Suspendisse lobortis quam commodo sapien tincidunt, nec eleifend velit rutrum. Suspendisse consectetur erat porta tincidunt placerat. Proin nec sapien vitae turpis euismod commodo vitae quis justo.",
+    "date": "2 Feb, 2021"
   },
-  {
+    {
     "id": 3,
-    "name": "New York Pizza",
-    "image": "/images/ny-pizza.jpg",
-    "desc": "New York-style pizza has slices that are large and wide with a thin crust that is foldable yet crispy. It is traditionally topped with tomato sauce and mozzarella cheese.",
-    "price": 8
+    "image": "../../images/our_daycare3.jpg",
+    "title": "Clay Modelling",
+    "desc": "In hac habitasse platea dictumst. Sed blandit massa tristique volutpat iaculis. Praesent pretium accumsan elit ut euismod. Sed condimentum gravida elit, eu porttitor odio semper sed. Phasellus non faucibus ipsum. Nam condimentum blandit elit vitae pellentesque. Quisque quis lorem purus. Etiam volutpat porta enim, viverra congue mi volutpat non. Quisque at felis vitae ante porta euismod pulvinar vel risus. Donec maximus tempor sem in cursus. Ut sit amet pellentesque nisl, a porttitor augue. Sed turpis purus, volutpat a ligula sed, tincidunt tempor dui. Cras laoreet nisl metus, sit amet varius est consectetur ut. Curabitur pellentesque nibh libero, quis accumsan dui pulvinar id.",
+    "date": "3 Feb, 2021"
   },
-  {
+    {
     "id": 4,
-    "name": "Sicilian Pizza",
-    "image": "/images/sicilian-pizza.jpg",
-    "desc": "Sicilian pizza is pizza prepared in a manner that originated in Sicily, Italy. Sicilian pizza is also known as sfincione or focaccia with toppings. A great tasteful pizza all around.",
-    "price": 9
+    "image": "../../images/our_daycare4.jpg",
+    "title": "Cats and Dogs",
+    "desc": "Vestibulum bibendum fermentum venenatis. Nam blandit felis in erat sagittis tincidunt. Maecenas eu commodo tortor. Fusce dictum mauris massa, ac congue libero mollis feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi nec velit massa. Morbi hendrerit, ex id convallis molestie, augue magna lacinia sem, rutrum sodales augue justo sed sem. Nulla nisi risus, tincidunt facilisis mattis a, bibendum vitae metus. Etiam egestas semper auctor. Ut ac nulla nec dui viverra rhoncus.",
+    "date": "4 Feb, 2021"
   }
 ]

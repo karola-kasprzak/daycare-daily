@@ -5,8 +5,8 @@ import "./Home.scss";
 class Home extends Component {
     render() {
         return (
-            <div className="home-bg">
-                <Container className="d-flex justify-content-center align-items-center h-75">
+            <div className="home-bg py-5">
+                <Container className="d-flex justify-content-center align-items-center h-75 my-5">
                     <div className="card w-75 home-container align-self-center p-5 home-card-bg">
                         <h1 className="card-title py-3">Welcome!</h1>
                         {/* <h4 className="card-subtitle mb-2 text-muted py-3">
@@ -26,7 +26,7 @@ class Home extends Component {
                             libero totam! Aliquid, totam.
                         </p>
 
-                        <button type="button" class="btn btn-primary">
+                        <button type="button" class="btn btn-custom">
                             Login
                         </button>
                     </div>
