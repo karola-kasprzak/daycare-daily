@@ -1,15 +1,20 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import "./About.scss";
+import image from "../../images/our_daycare6.jpg";
+import image2 from "../../images/about_wide.jpg";
 
 class About extends Component {
     render() {
         return (
             <div className="bg-texture py-5">
                 <Container className="g-4 my-5">
-                    <div className="row row-cols-1 row-cols-md-2">
+                    <div className="row row-cols-1 row-cols-md-2 mb-4">
                         <div className="col">
-                            <div className="card text-black card-bg-secondary mb-4">
+                            <div
+                                className="card text-black card-bg-secondary h-100"
+                                style={{ borderColor: "#abc4b6" }}
+                            >
                                 <div className="card-body">
                                     <h2 className="card-title">Our Daycare</h2>
                                     <p className="card-text lh-lg lead">
@@ -29,27 +34,21 @@ class About extends Component {
                             </div>
                         </div>
                         <div className="col">
-                            <div class="card bg-dark text-white mb-4">
-                                <img src="..." class="card-img" alt="..." />
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">
-                                        This is a wider card with supporting
-                                        text below as a natural lead-in to
-                                        additional content. This content is a
-                                        little bit longer.
-                                    </p>
-                                    <p class="card-text">
-                                        Last updated 3 mins ago
-                                    </p>
-                                </div>
+                            <div
+                                class="card bg-light text-white"
+                                style={{ borderColor: "#abc4b6" }}
+                            >
+                                <img src={image} class="card-img" alt="..." />
                             </div>
                         </div>
                     </div>
 
-                    <div className="row row-cols-1">
+                    <div className="row row-cols-1 mb-4">
                         <div className="col">
-                            <div className="card text-black bg-white mb-4">
+                            <div
+                                className="card text-black bg-white mb-4"
+                                style={{ borderColor: "#abc4b6" }}
+                            >
                                 <div className="card-body">
                                     <h5 className="card-title">About</h5>
                                     <p className="card-text lh-lg">
@@ -69,7 +68,10 @@ class About extends Component {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="card text-black bg-white mb-4">
+                            <div
+                                className="card text-black bg-white mb-4"
+                                style={{ borderColor: "#abc4b6" }}
+                            >
                                 <div className="card-body">
                                     <h5 className="card-title">Daily Plan</h5>
                                     <p className="card-text lh-lg">
@@ -134,6 +136,18 @@ class About extends Component {
                                         for the next day.
                                     </p>
                                 </div>
+                            </div>
+                        </div>
+
+                        <div className="col">
+                            <div
+                                class="card bg-light text-white"
+                                style={{
+                                    borderColor: "#abc4b6",
+                                    filter: "saturate(65%)",
+                                }}
+                            >
+                                <img src={image2} class="card-img" alt="..." />
                             </div>
                         </div>
                     </div>
