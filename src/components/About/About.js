@@ -9,8 +9,8 @@ class About extends Component {
         return (
             <div className="bg-texture py-5">
                 <Container className="g-4 my-5">
-                    <div className="row row-cols-1 row-cols-md-2 mb-4">
-                        <div className="col">
+                    <div className="row row-cols-1 row-cols-lg-2 mb-4">
+                        <div className="col mt-4">
                             <div
                                 className="card text-black card-bg-secondary h-100"
                                 style={{ borderColor: "#abc4b6" }}
@@ -33,7 +33,7 @@ class About extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col mt-4">
                             <div
                                 class="card bg-light text-white"
                                 style={{ borderColor: "#abc4b6" }}
@@ -144,7 +144,7 @@ class About extends Component {
                                 class="card bg-light text-white"
                                 style={{
                                     borderColor: "#abc4b6",
-                                    filter: "saturate(65%)",
+                                    filter: "saturate(75%)",
                                 }}
                             >
                                 <img src={image2} class="card-img" alt="..." />
