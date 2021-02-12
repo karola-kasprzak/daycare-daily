@@ -123,12 +123,15 @@ class About extends Component {
                                         they are picked up earlier. Children can
                                         sometimes take a while to adjust to the
                                         demands of a long day or two at
-                                        preschool. 3:35pm - educators engage in
-                                        curriculum planning and documentation of
-                                        children’s learning. Please try to be on
-                                        time to collect your child so that we
-                                        have time to plan and prepare learning
-                                        experiences for the next day.
+                                        preschool.
+                                    </p>
+                                    <p>
+                                        3:35pm - educators engage in curriculum
+                                        planning and documentation of children’s
+                                        learning. Please try to be on time to
+                                        collect your child so that we have time
+                                        to plan and prepare learning experiences
+                                        for the next day.
                                     </p>
                                 </div>
                             </div>

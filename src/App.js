@@ -16,12 +16,6 @@ function App() {
                 {/* add shadow to bottom border */}
                 <nav className="navbar navbar-expand-lg navbar-light my-3">
                     <div className="container-fluid">
-                        <Link to="/">
-                            <a className="logo-sign navbar-brand" href="#">
-                                <span className="color-dark">Daycare</span>
-                                <span className="color-contrast">Daily</span>
-                            </a>
-                        </Link>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -37,6 +31,14 @@ function App() {
                             className="collapse navbar-collapse"
                             id="navbarText"
                         >
+                            <Link to="/">
+                                <a className="logo-sign navbar-brand" href="#">
+                                    <span className="color-dark">Daycare</span>
+                                    <span className="color-contrast">
+                                        Daily
+                                    </span>
+                                </a>
+                            </Link>
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
                                     <Link to="/posts">
